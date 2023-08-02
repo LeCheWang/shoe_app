@@ -50,6 +50,19 @@
         android:inputType="number"
         android:hint="Type shoe price" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imgAvt"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_background"/>
+
     <Button
         android:id="@+id/btnCreate"
         android:layout_width="match_parent"
