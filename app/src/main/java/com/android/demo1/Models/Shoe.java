@@ -18,9 +18,11 @@ public class Shoe {
     @SerializedName("imageUrl")
     private String imageUrl;
 
-    public Shoe(String name, String description, long price) {
+
+
+    public Shoe(String id, String name, long price) {
+        this.id = id;
         this.name = name;
-        this.description = description;
         this.price = price;
     }
 
